@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <script src="libs\jquery-3.1.0.min.js"></script>
+    <script src="scripts\components.js"></script>
+    <script src="scripts\default.js"></script>
+    <script src="scripts\add-tasks.js"></script>
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="input-task-todo">
+            <input type="text" id="txt-add-task" placeholder="Type your task to do">
+            <select id="cmb-add-tag">
+                <option value="none" selected>Add a Tag</option>
+                <option value="family">Family</option>
+                <option value="finance">Finance</option>
+                <option value="market">Market</option>
+                <option value="study">Study</option>
+                <option value="travel">Travel</option>
+                <option value="work">Work</option>
+            </select>
+            <button id="btn-add-task">+</button>
+        </div>
+    </header>
+    <header class="message-container success">
+        <span>Text Here</span>
+        <div id="close-message">x</div>
+    </header>
+    <section class="content-container">
+        <div class="list-container">
+            <div class="no-task">
+                <span>Your bag of tasks is empty!</span>
+            </div>
+            <div class="task study">
+                <div class="title">Task Title</div>
+                <div class="content">Task content</div>
+                <div class="tag">
+                    <div class="actions">
+                        <span class="update-tag">Update</span>
+                        <span class="delete-task">Delete</span>
+                    </div>
+                    <div class="texts">
+                        <span class="tag-text">study</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="task work">
+                <div class="title">Task Title</div>
+                <div class="content">Task content</div>
+                <div class="tag">
+                    <div class="actions">
+                        <span class="update-tag">Update</span>
+                        <span class="delete-task">Delete</span>
+                    </div>
+                    <div class="texts">
+                        <span class="tag-text">work</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="task family">
+                <div class="title">Task Title</div>
+                <div class="content">Task content</div>
+                <div class="tag">
+                    <div class="actions">
+                        <span class="update-tag">Update</span>
+                        <span class="delete-task">Delete</span>
+                    </div>
+                    <div class="texts">
+                        <span class="tag-text">family</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="task market">
+                <div class="title">Task Title</div>
+                <div class="content">Task content</div>
+                <div class="tag">
+                    <div class="actions">
+                        <span class="update-tag">Update</span>
+                        <span class="delete-task">Delete</span>
+                    </div>
+                    <div class="texts">
+                        <span class="tag-text">market</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="task finance">
+                <div class="title">Task Title</div>
+                <div class="content">Task content</div>
+                <div class="tag">
+                    <div class="actions">
+                        <span class="update-tag">Update</span>
+                        <span class="delete-task">Delete</span>
+                    </div>
+                    <div class="texts">
+                        <span class="tag-text">finance</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="task travel">
+                <div class="title">Task Title</div>
+                <div class="content">Task content</div>
+                <div class="tag">
+                    <div class="actions">
+                        <span class="update-tag">Update</span>
+                        <span class="delete-task">Delete</span>
+                    </div>
+                    <div class="texts">
+                        <span class="tag-text">travel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
